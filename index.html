@@ -4,20 +4,217 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Mart</title>
+    <title>Panda Mart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>  
-<header>
-   
-</header>
+<div class="container" id="home">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home"><img src="images/logo-1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+<div class="container">
+    <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h1>Xiaomi Mi 4K UHD Android TV</h1>
+                    <p>Key Features:Model: Mi 4S,
+                    MI Universal Remote Support Google Home,
+                    43" UHD 4K (3840 x 2160) Display
+                    Dolby + DTS Sound System,
+                    RAM: 2 GB, Storage: 8GB</p>
+                    <h1 class="price">$800</h1>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/tv.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h1>Xbox Series S is available as a bundle</h1>
+                    <p>Bundle and score an Xbox Series S now, plus an option to add Xbox Game Pass Ultimate 3 Month Membership, select controllers and Microsoft Complete for Xbox.</p>
+                    <h1 class="price">$1200</h1>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/xbox.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h1>Save $70 on Gaming Headset</h1>
+                    <p>Save on a SteelSeries Arctis 9X Gaming Headset when you purchase this Xbox Series.</p>
+                    <h1 class="price">$400</h1>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/headphone.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<div class="container catagories">
+<div class="row">
+    <div class="col-md-4 ">
+        <div class="cat1 d-flex align-items-center justify-content-between">
+            <h1>Watch</h1>
+        <img src="images/watch.png" alt="">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="cat2 d-flex align-items-center justify-content-between">
+            <h1>Bag</h1>
+        <img src="images/bag-3.png" alt="">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="cat3 d-flex align-items-center justify-content-between">
+        <h1>Shoes</h1>
+        <img src="images/shoes.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+<div class="container shoes" id="shoes">
+    <h1 style="margin-bottom:25px;">Shoes</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h1 class="price">$200</h1>
+            <button class="buy-now">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike 360</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h1 class="price">$250</h1>
+            <button class="buy-now">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Air Max</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h1 class="price">$120</h1>
+            <button class="buy-now">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container" id="backpack">
+    <h1 style="margin-bottom: 20px;">Backpack</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bag-banner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike Bag</h5>
+              <h5>$120</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+                <button class="buy-now">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Max Bag</h5>
+              <h5>$175</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+                <button class="buy-now">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sensi Bag</h5>
+              <h5>$169</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+                <button class="buy-now">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container orange-bg d-flex justify-content-center align-items-center" id="subscribe">
+  <div>
+    <h3>Let's stay in touch</h3>
+    <h6>Get Updates on special discout on sales!!</h6>
+    <input class="form-control"    type="email" name="email" id="" placeholder="Enter your email here">
+    <button class="buy-now">Subscribe</button>
+  </div>
+</div>
+<div class="container d-flex justify-content-center">
+    <footer class="bg-white ">
+        <p>&copy; panda mart | all rights reseved | Sofia, Bulgaria.</p>
+    </footer>
+</div>
 
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
